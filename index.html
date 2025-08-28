@@ -13,11 +13,11 @@
     <nav class="flex justify-between items-center h-[100px] max-w-[93%] mx-auto">
         <div class="flex gap-2">
             <img class="w-[50px] h-[50px]" src="assets/logo.png" alt="">
-            <h1 class="text-[#006747] font-extrabold text-xl leading-6">Emergency <br>Service</h1>
+            <h1 id="navh1" class="text-[#006747] font-extrabold text-xl leading-6">Emergency <br>Service</h1>
         </div>
         <div class="flex gap-4">
-            <button class="flex shadow-lg bg-[#41FF6B1A] px-8 py-2 rounded-3xl">0 <img class="w-[30px] h-[30px]" src="assets/heart.png" alt=""></button>
-            <button class="flex bg-[#41FF6B1A] px-8 py-2 rounded-3xl">100 <img class="w-[30px] h-[30px]" src="assets/coin.png" alt=""></button>
+            <button class="flex items-center shadow-lg bg-[#41FF6B1A] px-8 py-2 rounded-3xl">0 <img class="w-[30px] ml-2 h-[30px]" src="assets/heart.png" alt=""></button>
+            <button class="flex items-center bg-[#41FF6B1A] px-8 py-2 rounded-3xl">100 <img class="w-[30px] ml-2 h-[30px]" src="assets/coin.png" alt=""></button>
             <button class="bg-[#00A63E] text-white px-8 py-2 rounded-3xl">0 Copy</button>
         </div>
     </nav>
@@ -29,8 +29,8 @@
     </div>
 
     <section class="bg-[#F5FFF6] pt-[50px]">
-        <div class="flex justify-between max-w-[93%] mx-auto">
-            <div class="grid grid-cols-3 gap-4 grid-rows-3 ">
+        <div id="sectionWidth" class="flex justify-between max-w-[93%] mx-auto">
+            <div id="gridItems" class="grid grid-cols-3 gap-4 grid-rows-3 ">
                 <div class="bg-white p-5 rounded-xl">
                     <div class="flex justify-between items-center mb-2">
                         <div class="bg-[#FFE3E2] rounded-2xl flex justify-center items-center w-[50px] h-[50px]"><img class="w-8 h-8" src="assets/emergency.png" alt=""></div>
@@ -221,7 +221,7 @@
                 </div>
             </div>
             <div class="bg-white rounded-xl">
-                <div class="flex items-center gap-30 p-6 ">
+                <div class="flex items-center justify-between p-6 ">
                     <span class="text-lg"><i class="fa-solid fa-clock"></i> Call history</span>
                     <button class="bg-[#00A63E] text-white px-8 py-2 rounded-3xl">Clear</button>
                 </div>

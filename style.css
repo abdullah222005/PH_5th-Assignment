@@ -2,3 +2,21 @@
 .font{
     font-family: "Hind Madurai", sans-serif;
 }
+
+@media screen and (max-width: 576px) {
+    #navh1{
+        display: none;
+    }
+    #sectionWidth{
+        max-width: 100%;
+        flex-direction: column;
+    }
+    #gridItems{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        text-align: center;
+    }
+    #HistoryContainer{
+        margin-bottom: 22px;
+    }
+}

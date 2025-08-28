@@ -7,9 +7,13 @@
     #navh1{
         display: none;
     }
+    .navIcon{
+        padding: 5px 20px;
+    }
     #sectionWidth{
         max-width: 100%;
         flex-direction: column;
+        gap: 20px;
     }
     #gridItems{
         grid-template-columns: 1fr;

@@ -3,6 +3,7 @@
     font-family: "Hind Madurai", sans-serif;
 }
 
+/* Making the web Mobile responsive */
 @media screen and (max-width: 576px) {
     #navh1{
         display: none;

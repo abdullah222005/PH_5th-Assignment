@@ -24,4 +24,7 @@
     #HistoryContainer{
         margin-bottom: 22px;
     }
+    .card{
+        box-shadow: 0 4px 8px rgba(150, 150, 150, 0.5);
+    }
 }
